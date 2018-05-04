@@ -1,4 +1,4 @@
-# Programming assignments for Network Security Course
+# Assignments - Network Security Course
 
 This repository contains all programming assignments that I did for my Network Security Course as part of Masters degree in Information Assurance (@Northeastern University)
 
