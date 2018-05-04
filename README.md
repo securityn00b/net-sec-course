@@ -1,2 +1,1 @@
-# net-sec-course
-Network Security Course
+# Assignments for Network Security Course
