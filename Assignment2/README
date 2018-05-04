@@ -1,13 +1,16 @@
 In this assignment, a system for secure email communication has been designed.
-The way this is secure is that any kind of file that has to be sent via email - Text, Image or Video can be encrypted by the sender and then decrypted by the receiver.
+The way this is secure is that any kind of file that has to be sent via email - 
+Text, Image or Video can be encrypted by the sender and then decrypted by the receiver.
 
 Below is a description of the system and some of its salient features:
 
 -> Both Symmetric and Asymmetric encryption has been used.
--> For symmetric encryption, AES-256 has been used in Cipher Block Chaining (CBC) mode. 256 bit key is used, since a lower key length will make an adversary’s job much easier in cracking.
+-> For symmetric encryption, AES-256 has been used in Cipher Block Chaining (CBC) mode. 256 bit key is used, 
+   since a lower key length will make an adversary’s job much easier in cracking.
 -> Both, the symmetric key (256 bits) and Initialization vector (128 bits) are randomized using the Operating System’s Random Number Generator.
 -> RSA has been used for key exchange. The key size used is 2048 bits, since lower key sizes can be broken.
--> RSA has also been used for signing. For signing, SHA-256 is used as the hashing algorithm because of greater resistance to collisions when compared to SHA1 or MD5.
+-> RSA has also been used for signing. 
+   For signing, SHA-256 is used as the hashing algorithm because of greater resistance to collisions when compared to SHA1 or MD5.
 -> A scheme similar to a digital envelope has been used to encrypt and sign data.
 
 -> For Encryption:
@@ -23,7 +26,7 @@ Below is a description of the system and some of its salient features:
 	$ The resulting cipher text is decrypted using the shared key to obtain the original message.
 
 
-###########################################################################################################################################################################################
+#####################################################################################################################################################
 
 
 There are 3 python scripts attached with this assignment:
@@ -33,8 +36,7 @@ There are 3 python scripts attached with this assignment:
 3. symencryption.py (For session communication once shared key for that session has been exchanged)
 
 
-###########################################################################################################################################################################################
-
+######################################################################################################################################################
 
 To run the scripts:
 
